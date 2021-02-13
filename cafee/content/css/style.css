@@ -323,7 +323,7 @@ footer .social a:hover{
 
 .special {
     position: relative;
-    width: 100%;
+    margin-bottom: 10px;
     border: 10px solid #fff;
 }
 .special img{
@@ -342,12 +342,12 @@ footer .social a:hover{
 
 .daily ol {
     list-style-type: none;
-    counter-reset: item;/* yonshea counter esmoh item*/
+    counter-reset: item;
     padding: 20px ;
 }
 .daily ol li:before {
-    content: counter(item) ". "; /* hna bdeef elrqm gnbh . */
-    counter-increment: item; /* btdeef dh ala elraqm ely f el  counter*/
+    content: counter(item) ". ";
+    counter-increment: item; 
     color:var(--Main-color);
     font-weight: 700;
 }
