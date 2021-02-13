@@ -323,8 +323,8 @@ footer .social a:hover{
 
 .special {
     position: relative;
-    margin-bottom: 10px;
     border: 10px solid #fff;
+    margin-bottom: 10px;
 }
 .special img{
     width: 100%;
@@ -332,6 +332,7 @@ footer .social a:hover{
 .special-content {
     position: absolute;
     bottom: 0px;
+    left: 0px;
     padding: 10px;
     width: 100%;
     color: #fff;
@@ -346,7 +347,7 @@ footer .social a:hover{
     padding: 20px ;
 }
 .daily ol li:before {
-    content: counter(item) ". ";
+    content: counter(item) ". "; 
     counter-increment: item; 
     color:var(--Main-color);
     font-weight: 700;
